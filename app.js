@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const bot = new TelegramBot(token, {polling: true})
 
 bot.on('message', msg => {
-    if(message.text=="/start"){
-        bot.sendMessage(msg.chat.id,"hello world")
+    if (message.text == '/start') {
+        return message.send('hello world');
     }
 })
