@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api')
-const bot = new TelegramBot(config.bot.token, {polling: true})
+const bot = new TelegramBot('1641750487:AAHd4Xv1n7HHWUINbpWYDMiPoqCy_BG4Fsg', {polling: true})
 bot.on('text', async (message) => {
     message.send = (text, params) => bot.sendMessage(message.chat.id, text, params)
     if(message.text == "/start"){
