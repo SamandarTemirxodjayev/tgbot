@@ -1,5 +1,4 @@
 const TelegramBot = require('node-telegram-bot-api')
-const config = require('config')
 const bot = new TelegramBot(config.bot.token, {polling: true})
 bot.on('text', async (message) => {
     message.send = (text, params) => bot.sendMessage(message.chat.id, text, params)
