@@ -66,7 +66,7 @@ TO'LOV YO'LLARI💳!
 ILTIMOS NOMERNI SOXRANIT QILING!
 (MASHENNIKLARDAN EXTIYOT BO'LING!)
       """)
-    if (message.text.find('Karta') != -1 message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1) and message.chat.type == 'private' and filters.user:
+    if (message.text.find('Karta') != -1 or message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,""""
 💳 HUMO 9860 1601 0180 8782
 💳 UZCARD 8600 4904 4794 8779
