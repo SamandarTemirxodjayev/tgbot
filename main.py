@@ -77,13 +77,13 @@ ILTIMOS NOMERNI SOXRANIT QILING!
 (MASHENNIKLARDAN EXTIYOT BO'LING!)
       """)
     if (message.text.find('Karta') != -1 or message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1) and message.chat.type == 'private' and filters.user:
-      app.send_message(message.chat.id,""""
+      app.send_message(message.chat.id,"""
 💳 HUMO 9860 1601 0180 8782
 💳 UZCARD 8600 4904 4794 8779
  🙍‍♂️ TEMIRKHODJAEVA RAKHIMA
 
 To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""")
-    if message.text.find('alo') != -1 or message.text.find('Alo') != -1:
+    if (message.text.find('alo') != -1 or message.text.find('Alo') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,'Kutish vaqti 5-15 daqiqagacha')
     print(message)
     f = open("data.txt", "a+")
