@@ -27,18 +27,28 @@ def my_handler(client, message):
 
 ✍🏻 Murojat uchun: @method_uz""",reply_to_message_id=message.message_id)
       app.send_message(message.chat.id,"""
-🌙  PUBG Mobile ga ko'proq va arzonroq donat qilmoqchimisiz ? 😍  Bizda siz uchun aksiya narxlari:
-
-🔝 Aksiyadagi UC narxlari:
-💵 360 UC – 57.000 so'm
-💵 750 UC – 110.000 so'm
-💵 2055 UC – 265.000 so'm
-💵 4450 UC – 555.000 so'm
-💵 9480 UC – 1.095.000 so'm
-
-⌛️ Bular vaqtinchalik  aksiya va bitta iD raqamga bir marta tashlanadi xolos shoshiling...💯
-
-✍🏻 Murojat uchun: @method_uz
+Eng arzon UC METHOD UZ🤩🥳
+➖➖➖➖➖➖➖➖
+🌍 GLOBAL 
+ 60  💸UC - 10.000 min 🔥
+120  💸UC - 20.000 min
+180 💸UC - 29.000 min
+240 💸UC - 39.000 min
+300 💸UC - 49.000 min RP🔥
+360 💸UC - 57.000 min RP🔥
+600 💸UC - 100.000 min 
+660 💸UC - 103.000 min 
+900 💸UC - 150.000 min RP🔥
+960 💸UC - 159.000 min RP🔥
+1320💸UC - 205.000 min
+2100💸UC- 310.000 min
+1800💸UC - 265.000 min
+3850💸UC - 500.000 min
+8100💸UC - 990.000 min
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+🖤 Bizda hammasi ishonchli va kafolatlangan !!!✔️
+💥 Bog'lanish 👉 @Method_UZ
+‼️ +998995363021 saxranit qilib qo'ying 😉
         """)
       app.send_message(message.chat.id,"""
       Vaqtinchalik ishlamayapti 😭
