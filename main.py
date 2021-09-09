@@ -28,7 +28,7 @@ def my_handler(client, message):
 960 💸UC - 159.000 min RP🔥
 ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖ ➖
 ✅Isbot kanal/Barcha to'lovlar 📥:@blacksgarant""",reply_to_message_id=message.message_id)
-    if message.text.find('Karta') != -1 message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1:
+    if message.text.find('Karta') != -1 or message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1:
       app.send_message(message.chat.id,""""
 💳 8600120470390884
  🙍‍♂️ Журабоев Жахонгир
