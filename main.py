@@ -90,5 +90,17 @@ To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""")
     text = '"Date: "'+ str(message.date) + '\n' + '"Message": "' + message.text + '"\n' + '"chat_id": "' + str(message.chat.id) + '"\n\n'
     f.write(text)
     f.close()
+@app.on_message(filters.audio)
+def my_handler(client, message):
+    print(message)
+@app.on_message(filters.photo)
+def my_handler(client, message):
+    print(message)
+@app.on_message(filters.voice)
+def my_handler(client, message):
+    print(message)
+@app.on_message(filters.video)
+def my_handler(client, message):
+    print(message)
 
 app.run()
