@@ -75,10 +75,8 @@ ILTIMOS NOMERNI SOXRANIT QILING!
 To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""")
     if message.text.find('alo') != -1 or message.text.find('Alo') != -1:
       app.send_message(message.chat.id,'Kutish vaqti 5-15 daqiqagacha')
-    if message.text.find('')
     print(message)
     f = open("data.txt", "a+")
-    
     text = '"Date: "'+ str(message.date) + '\n' + '"Message": "' + message.text + '"\n' + '"chat_id": "' + str(message.chat.id) + '"\n\n'
     f.write(text)
     f.close()
