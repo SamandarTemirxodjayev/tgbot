@@ -14,7 +14,7 @@ def my_handler(client, message):
       app.send_message(message.chat.id,"Salom nima xizmat",reply_to_message_id=message.message_id)
     if (message.text.find('uc qancha') != -1 or message.text.find('uc ') != -1 or message.text.find('Uc ') != -1 or message.text.find('UC ') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,"""
-🌙  PUBG Mobile ga ko'proq va arzonroq donat qilmoqchimisiz ? 😍  Bizda siz uchun aksiya narxlari:
+<b>🌙  PUBG Mobile ga ko'proq va arzonroq donat qilmoqchimisiz ? 😍  Bizda siz uchun aksiya narxlari:
 
 🔝 Aksiyadagi UC narxlari:
 💵 360 UC – 57.000 so'm
@@ -25,8 +25,8 @@ def my_handler(client, message):
 
 ⌛️ Bular vaqtinchalik  aksiya va bitta iD raqamga bir marta tashlanadi xolos shoshiling...💯
 
-✍🏻 Murojat uchun: @method_uz""",reply_to_message_id=message.message_id)
-      app.send_message(message.chat.id,"""
+✍🏻 Murojat uchun: @method_uz</b>""",reply_to_message_id=message.message_id)
+      app.send_message(message.chat.id,"""<b>
 Eng arzon UC METHOD UZ🤩🥳
 ➖➖➖➖➖➖➖➖
 🌍 GLOBAL 
@@ -49,9 +49,8 @@ Eng arzon UC METHOD UZ🤩🥳
 🖤 Bizda hammasi ishonchli va kafolatlangan !!!✔️
 💥 Bog'lanish 👉 @Method_UZ
 ‼️ +998995363021 saxranit qilib qo'ying 😉
-        """)
-      app.send_message(message.chat.id,"""
-      Vaqtinchalik ishlamayapti 😭
+        </b>""",parse_mode="html")
+      app.send_message(message.chat.id,"""<b>
 Donaterlarimiz uchun Super muper skidka🔥😍
 Akkauntga kirib olib berish xizmati yana ishga tushdi!💣
 
@@ -75,14 +74,14 @@ TO'LOV YO'LLARI💳!
 ➖➖➖➖➖➖➖➖➖
 ILTIMOS NOMERNI SOXRANIT QILING!
 (MASHENNIKLARDAN EXTIYOT BO'LING!)
-      """)
+     </b> """,parse_mode="html")
     if (message.text.find('Karta') != -1 or message.text.find('karta') != -1 or message.text.find('Карта') != -1 or message.text.find('карта') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,"""
-💳 HUMO 9860 1601 0180 8782
-💳 UZCARD 8600 4904 4794 8779
+<b>💳 HUMO 9860 1601 0180 8782
+💳 UZCARD 8600 4904 4794 8779</b>
  🙍‍♂️ TEMIRKHODJAEVA RAKHIMA
 
-To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""")
+To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""",parse_mode="html")
     if (message.text.find('alo') != -1 or message.text.find('Alo') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,'Kutish vaqti 5-15 daqiqagacha')
     print(message)
