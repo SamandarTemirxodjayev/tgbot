@@ -134,8 +134,7 @@ To'lov qilgandan so'ng chekni rasm isbotini yuborishingiz shart!😊""",parse_mo
       app.send_sticker(message.chat.id,'karta.webp')
     if (message.text.find('alo') != -1 or message.text.find('Alo') != -1) and message.chat.type == 'private' and filters.user:
       app.send_message(message.chat.id,'Kutish vaqti 5-15 daqiqagacha')
-    if (message.text.find('60uc ') != -1 or message.text.find('60UC ') != -1 or message.text.find('60Uc ') and message.chat.type == 'private' and filters.user):
-     app.send_message (message.chat.id, '11min som')
+
     print(message)
     f = open("data.txt", "a+")
     text = '"Date: "'+ str(message.date) + '\n' + '"Message": "' + message.text + '"\n' + '"chat_id": "' + str(message.chat.id) + '"\n\n'
